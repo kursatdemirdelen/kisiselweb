@@ -1,0 +1,22 @@
+﻿@model kisiselweb.Models.Siniflar.AnaSayfa
+@{
+    ViewBag.Title = "AnaSayfaGetir";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="mt-4">Profil Düzenleme</h2>
+<hr />
+
+@using (Html.BeginForm("AnaSayfaGuncelle", "Admin", FormMethod.Post))
+{
+    @Html.LabelFor(x => x.id)
+    @Html.TextBoxFor(x => x.id, new { @class = "form-control", @readonly = "readonly" })
+    <br />
+    @Html.LabelFor(x => x.ad)
+    @Html.TextBoxFor(x => x.ad, new { @class = "form-control"  })
+    <br />
+    @Html.LabelFor(x => x.aciklama)
+    @Html.TextBoxFor(x => x.aciklama, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Bilgileri Güncelle</button>
+}

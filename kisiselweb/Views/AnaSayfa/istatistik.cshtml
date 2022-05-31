@@ -1,0 +1,36 @@
+﻿@using kisiselweb.Models.Siniflar
+@model List<Istatistik>
+<section id="gtco-counter" class="overlay bg-fixed">
+    <div class="container">
+        <div class="section-content">
+            @foreach (var x in Model)
+            {
+                <div class="row">
+                    <!-- Counter Item -->
+                    <div class="col-md-4 col-sm-6 counter-item">
+                        <i class="lnr lnr-users"></i>
+                        <span class="number" data-from="0" data-to="34" data-refresh-interval="100">@x.musteri</span>
+                        <h4>Müşteri</h4>
+                    </div>
+                    <!-- End of Counter Item -->
+                    <!-- Counter Item -->
+                    <div class="col-md-4 col-sm-6 counter-item">
+                        <i class="lnr lnr-briefcase"></i>
+                        <span class="number" data-from="0" data-to="32" data-refresh-interval="100">@x.proje</span>
+                        <h4>Proje</h4>
+                    </div>
+                    <!-- End of Counter Item -->
+                    <!-- Counter Item -->
+                    <div class="col-md-4 col-sm-6 counter-item">
+                        <i class="lnr lnr-heart"></i>
+                        <span class="number" data-from="0" data-to="38" data-refresh-interval="100">@x.feedback</span>
+                        <h4>Feedback</h4>
+                    </div>
+                    <!-- End of Counter Item -->
+
+                </div>
+            }
+
+        </div>
+    </div>
+</section>
