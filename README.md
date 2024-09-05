@@ -1,6 +1,6 @@
 # Kişisel Web Sitesi - Kürşat Demirdelen
 
-Bu proje, kişisel web sitesi oluşturmak amacıyla geliştirilmiştir. Web sitesi, hem oluşturan kullanıcı kendisi hakkında bilgi veren bir portföy sitesi olarak hem de projelerini ve çalışmalarını sergilemek için kullanılmaktadır.
+Bu proje, kişisel web sitesi oluşturmak amacıyla geliştirilmiştir. Web sitesi, hem oluşturan kullanıcının kendisi hakkında bilgi veren bir portföy sitesi olarak hem de projelerini ve çalışmalarını sergilemek için kullanılmaktadır.
 
 ## Özellikler
 
